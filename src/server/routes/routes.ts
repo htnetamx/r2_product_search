@@ -19,7 +19,7 @@ export class Routes {
 
   public configureApiEndPoints(baseUrl: string) {
     this.indexRoute.configureEndPoints(baseUrl);
-    this.getByIdRoute.configureEndPoints(baseUrl);
+    //this.getByIdRoute.configureEndPoints(baseUrl);
     this.getAllRoute.configureEndPoints(baseUrl);
   }
 }
